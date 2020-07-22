@@ -12,7 +12,7 @@ public class RedBus {
 
 	public void openRedBus() throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aaba-PC\\eclipse-workspace\\SeleniumAutomation\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aaba-PC\\eclipse-workspace\\RedBusSelenium\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.redbus.in/");
 		
